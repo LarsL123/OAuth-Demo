@@ -4,7 +4,7 @@ Simple implementation of a 3rd party OAuth authorization app.
 ## About
 - This project includes an application for logging in to OAuth 3rd party auth services
 - The project is built as a client/server setup
-- The UI is very minimal, and just to showcase the flow of authentication process
+- The UI is very minimal, and just to showcase the flow of the authentication process
 - This repo is configured to work with the [`polar`](https://www.polar.com/accesslink-api/) API, but you should easially be able to reconfigure it to work with any 3rd party OAuth service.
 
 ## Installation

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Main Page</title>
+    <meta name="description" content="A activity heatmap generator" />
+    <meta name="author" content="SitePoint" />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <h1>Welcome!</h1>
+    <!-- Change this address to fit your application -->
+    <a
+      href="https://flow.polar.com/oauth2/authorization?response_type=code&client_id=8e2b0563-9c10-4989-be3a-9958b4170bac&redirect_uri=http://localhost:4001/auth"
+      >Login with Polar</a
+    >
+    <input id="token" class="hidden" type="text" />
+    <button id="reset" hidden="true" >Reset</button>
+    <script src="./js/displayToken.js"></script>
+  </body>
+</html>

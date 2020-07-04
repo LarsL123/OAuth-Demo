@@ -1,0 +1,5 @@
+{
+  "authService": {
+    "clientToken": "CLIENT_AUTH_STRING"
+  }
+}

@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.center {
+  display: block;
+  margin-top: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}

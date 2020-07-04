@@ -1,8 +1,9 @@
 {
-    "authService":{
-        "name": "polar",
-        "OAuthUrl": "https://polarremote.com/v2/oauth2/token",
-        "clientToken": "CLIENT_AUTH_STRING",
-        "redirect_uri": "http://localhost:4001/auth"
-    }
+  "authService": {
+    "name": "polar",
+    "OAuthUrl": "https://polarremote.com/v2/oauth2/token",
+    "clientToken": "CLIENT_AUTH_STRING",
+    "redirect_uri": "http://localhost:4001/auth"
+  },
+  "appPort": "4001"
 }
